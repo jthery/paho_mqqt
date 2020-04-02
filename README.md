@@ -1,19 +1,19 @@
-###paho_mqqt
+### paho_mqqt
 Utilisation de Mosquitto pour communiquer avec des objets connectés.
 
-###Pré-requis:
-- [J'ai installé Mosquitto] (https://mosquitto.org/download/)
+### Pré-requis:
+- [J'ai installé Mosquitto](https://mosquitto.org/download/)
 - J'ai ajouté les variables d'environnements pointant sur le dossier Mosquitto.
 
-###Informations:
+### Informations:
 - protocole MQTT = Message Queuing Telemetry Transport
 
 
-###Outils en ligne de commande :
+### Outils en ligne de commande :
 - mosquitto_pub : publication de messages dans un topic
 - mosquitto_sub : abonnement à un topic
 
-###Example pour s'abonner à un topic :
+### Example pour s'abonner à un topic :
 ```
 mosquitto_sub -h mqqt.eclipse.org -t nomdutopic/souschemindutopicnonobligatoire
 ```
@@ -33,7 +33,7 @@ etc.. etc..
 
 Donc là, c'est juste pour s'abonner à un topic.
 
-###Example pour publier sur un topic :
+### Example pour publier sur un topic :
 
 ```
 mosquitto_pub -h mqtt.eclipse.org -t foo/jeremy -m "j'aime les fruits et légumes"
