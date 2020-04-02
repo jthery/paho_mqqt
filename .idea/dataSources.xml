@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="observations" uuid="9f70799a-ce31-4d64-8134-a8cf3fc2dcd1">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Jeremy\JeremyEpsi\JeremyTravaux\cours_iot\paho_mqqt\observations.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
