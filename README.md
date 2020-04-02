@@ -7,6 +7,7 @@ Utilisation de Mosquitto pour communiquer avec des objets connectés.
 
 ### Informations:
 - protocole MQTT = Message Queuing Telemetry Transport
+- le cours du prof se trouve dans se Github
 
 
 ### Outils en ligne de commande :
